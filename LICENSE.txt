@@ -1,0 +1,74 @@
+POC, Copyright (C) 2023 Naver Corporation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+
+A summary of the CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+
+**************************************************************************
+SEE NOTICES BELOW CONCERNING SOFTWARE FILES (PART 1) AND DATASETS (PART 2):
+**************************************************************************
+
+-----------------------------------------------------------------------
+PART 1: SEE NOTICES BELOW WITH RESPECT TO SOFTWARE FILES:
+-----------------------------------------------------------------------
+
+(A) Software available here:
+	https://github.com/naver/relis/
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/relis/blob/main/LICENSE.txt
+is being redistributed in a modified under the same terms and conditions here:
+	POC/relis/
+
+(B) Software available here:
+	https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation
+under these conditions (MIT license):
+	https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation?tab=readme-ov-file#license
+is being redistributed in a modified under the same terms and conditions here:
+	POC/Mask2Anomaly/
+
+(C) Software available here:
+	https://github.com/yyliu01/RPL
+under these conditions (MIT License):
+	https://github.com/yyliu01/RPL/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	POC/RPL/
+
+(D) Software available here:
+	https://github.com/NazirNayal8/RbA/tree/main
+under these conditions (MIT License):
+	https://github.com/NazirNayal8/RbA/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	POC/RbA/
+
+(E) Software available here:
+	https://github.com/IDEA-Research/Grounded-Segment-Anything
+under these conditions (Apache License 2.0):
+	https://github.com/IDEA-Research/Grounded-Segment-Anything/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	POC/Grounded-Segment-Anything
+
+(F) Software available here:
+	https://github.com/IDEA-Research/Grounded-Segment-Anything/blob/18da0f3ece187413ede87cf9d09389b5ca5cba06/grounded_sam_demo.py
+under these conditions (Apache License 2.0):
+	https://github.com/IDEA-Research/Grounded-Segment-Anything/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	POC/poc/grounded_sam_utils.py
+
+
+----------------------------------------------------------------
+PART 2: SEE NOTICES BELOW WITH RESPECT TO DATASETS:
+----------------------------------------------------------------
+
+The following datasets, which are not being distributed herewith, were used to train one or more of the models distributed with the software:
+
+(A) Cityscapes Dataset: see https://www.cityscapes-dataset.com/
+made available under the following license: https://www.cityscapes-dataset.com/license/
+
+(B) COCO Dataset: see https://cocodataset.org/
+made available under the following license https://cocodataset.org/#termsofuse
+
+(C) PASCAL Dataset: see http://host.robots.ox.ac.uk/pascal/VOC/
+made available under the "flickr" terms of use: https://www.flickr.com/help/terms
