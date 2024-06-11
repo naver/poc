@@ -56,19 +56,3 @@ under these conditions (Apache License 2.0):
 	https://github.com/IDEA-Research/Grounded-Segment-Anything/blob/main/LICENSE
 is being redistributed in a modified under the same terms and conditions here:
 	POC/poc/grounded_sam_utils.py
-
-
-----------------------------------------------------------------
-PART 2: SEE NOTICES BELOW WITH RESPECT TO DATASETS:
-----------------------------------------------------------------
-
-The following datasets, which are not being distributed herewith, were used to train one or more of the models distributed with the software:
-
-(A) Cityscapes Dataset: see https://www.cityscapes-dataset.com/
-made available under the following license: https://www.cityscapes-dataset.com/license/
-
-(B) COCO Dataset: see https://cocodataset.org/
-made available under the following license https://cocodataset.org/#termsofuse
-
-(C) PASCAL Dataset: see http://host.robots.ox.ac.uk/pascal/VOC/
-made available under the "flickr" terms of use: https://www.flickr.com/help/terms
