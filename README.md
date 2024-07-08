@@ -104,5 +104,20 @@ To train models follow `relis/mmsegmentation` instructions. Once models are trai
 
 ---
 
+## Reference
+
+**Placing Objects in Context via Inpainting for Out-of-distribution Segmentation** (to appear at ECCV 2024)  
+Pau de Jorge, Riccardo Volpi, Puneet K. Dokania, Philip H. S. Torr and Grégory Rogez
+```
+    @InProceedings{deJorge_2024_ECCV,
+    author = {de Jorge, Pau and Volpi, Riccardo and Dakania, Puneet K. and Torr, Philip H. S. and Gregory, Rogez},
+    title = {Placing Objects in Context via Inpainting for Out-of-distribution Segmentation},
+    booktitle = {The European Conference on Computer Vision (ECCV)},
+    month = {October},
+    year = {2024}
+    }
+```
+
+
 
 
