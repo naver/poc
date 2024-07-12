@@ -36,13 +36,20 @@ To train models with extended datasets we use the `relis` repository. Please ins
 
 ## Datasets
 
+### Existing benchmarks
 To evaluate anomaly segmentation we take the evaluation sets provided in [`Mask2Anomaly`](https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/tree/main) via this [`link`](https://drive.google.com/file/d/1r2eFANvSlcUjxcerjC8l6dRa0slowMpx/view?usp=share_link). 
 
 To fine-tune with Cityscapes and COCO, please download and prepare the datasets as described in [`Mask2Anomaly`](https://github.com/shyam671/Mask2Anomaly-Unmasking-Anomalies-in-Road-Scene-Segmentation/tree/main) (all anomaly segmentation methods follow the same pre-processing).
 
 For dataset extension, please download the [`PASCAL`](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit) dataset (VOC2012) for evaluation.
 
-We will release our POC-generated datasets soon
+### POC Datasets
+You can download the datasets generated in our work with the following link
+``` bash
+wget https://download.europe.naverlabs.com/POC_Datasets/data.zip
+unzip data.zip
+```
+The zip file does not contain the full images but only the local changes applied when inpainting an object. To obtain the final images you need to download the base datasets: [Cityscapes](https://www.cityscapes-dataset.com) or [ACDC](https://acdc.vision.ee.ethz.ch/login?target=%2Fdownload). Then you may run the `poc/prepare_datasets.py` script. To run it, first you need modify the root folder with the unzipped POC files and relevant base datasets. The POC datasets are released under the following [license](LICENSE_POC_Inpaintings.txt).
 
 ---
 

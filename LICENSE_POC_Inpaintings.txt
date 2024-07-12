@@ -1,0 +1,21 @@
+POC Inpaintings, Copyright (c) 2024 University of Oxford, Naver Corporation
+
+The following datasets, which are not being distributed herewith, were made available under the following terms, which as applicable apply to any POC (Placing Objects in Context) Inpaintings distributed herewith (i.e., any use of POC Inpaintings derived from such datasets are subject, as applicable, to the terms and conditions of the corresponding dataset license and in the event such license does not apply the CC BY-NC-SA 4.0 license shall apply, a summary of which is located here: https://creativecommons.org/licenses/by-nc-sa/4.0/, and the details of which are located here: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode):
+
+(A) The ACDC Dataset available here:
+https://acdc.vision.ee.ethz.ch
+made available under the following (non-commercial purposes only (such as academic research, teaching, scientific publications, or personal experimentation)) license:
+https://acdc.vision.ee.ethz.ch/license
+was used to derive the POC Inpaintings available in this directory:
+	...
+
+(B) The Cityscapes Dataset available here: 
+https://www.cityscapes-dataset.com/
+made available under the following (non-commercial purposes such as academic research, teaching, scientific publications, or personal experimentation) license:
+https://www.cityscapes-dataset.com/license/
+was used to derive the POC Inpaintings available in this directory:
+	...
+
+
+
+
