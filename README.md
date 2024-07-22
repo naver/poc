@@ -78,13 +78,13 @@ wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 # GroundingDino
 wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
 
-## Inpainting model
+## Inpainting model (optional to download locally)
 # Make sure you have git-lfs installed (https://git-lfs.com)
 git lfs install
 git clone https://huggingface.co/stabilityai/stable-diffusion-2-inpainting
 ```
 
-Fill the corresponding paths in `poc/path_utils.py` and run the `poc/poc_pipeline_demo.ipynb`.
+Fill the corresponding paths in `poc/path_utils.py` and run the `poc/poc_pipeline_demo.ipynb` or `poc/test_poc_single_image.py`.
 
 
 ---
