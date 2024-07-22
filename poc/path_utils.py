@@ -7,6 +7,7 @@ gdino_ckpt_path = '/scratch/2/project/uss/grounded_sam_models/groundingdino_swin
 sam_ckpt = '/scratch/2/project/uss/grounded_sam_models/sam_vit_h_4b8939.pth'
 
 # Stable diffusion models
-sd_v2 = "/scratch/2/project/stable_dif/stable-diffusion-2/"
-sd_inp_v2 = '/scratch/2/project/stable_dif/stable-diffusion-2-inpainting/'
+sd_v2 = "stabilityai/stable-diffusion-2"
+sd_inp_v2 = "stabilityai/stable-diffusion-2-inpainting"
+# sd_inp_v2 = '/PATH/TO/LOCAL_DOWNLOAD/WITH/LFS'
 
