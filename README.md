@@ -10,21 +10,35 @@ Codebase to realistically insert objects into images via diffusion inpainting mo
 ---
 
 ## Dependencies
-
+This repository is built on top of different repositories for the generative pipeline and the anomaly segmentation analyses. Thus we recommend using different conda environments to install the necessary dependencies more easily.
 
 ### POC pipeline
-Our implementation of the Placing Objects in Context (POC) pipeline depends on two main blocks. An open vocabulary segmentor [`GSAM`](https://github.com/IDEA-Research/Grounded-Segment-Anything#running_man-grounded-sam-detect-and-segment-everything-with-text-prompt) and an inpainting [`model`](https://huggingface.co/stabilityai/stable-diffusion-2) based on StableDiffusion.
+Our implementation of the Placing Objects in Context (POC) pipeline depends on two main blocks. An open vocabulary segmentor [`GSAM`](https://github.com/IDEA-Research/Grounded-Segment-Anything#running_man-grounded-sam-detect-and-segment-everything-with-text-prompt) and an inpainting [`model`](https://huggingface.co/stabilityai/stable-diffusion-2-inpainting) based on StableDiffusion. based on StableDiffusion.
 
 In order to run our pipeline, from the repo you may create a conda environment with the following commands:
 
 ```bash
 # From within the cloned repo main folder
-conda env create -f poc.yml
+git clone https://github.com/naver/poc.git
+cd poc/Grounded-Segment-Anything
 
-cd Grounded-Segment-Anything
+export CUDA_HOME=/PATH/TO/CUDA_11.6
+conda create -n POC python=3.10 -y
+conda activate POC
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
 python -m pip install -e segment_anything
 python -m pip install -e GroundingDINO
+pip install diffusers[torch]==0.15.1
 ```
+
+You also need to download the checkpoints for GSAM:
+```bash
+cd /MODEL/CHECKPOINT/FOLDER
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+```
+Then modify the corresponding paths in [path_utils.py](poc/path_utils.py)
+
 
 ### Anomaly segmentation
 To fine-tunine models with OOD data and perform anomaly segmentation please install the dependencies from `RPL`, `Mask2Anomaly` and `RbA` as detailed in their resepective documentation. Note that `Mask2Anomaly` and `RbA` can share the same environment given they are both built on top of [`Mask2Former`](https://github.com/facebookresearch/Mask2Former).
