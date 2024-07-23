@@ -41,10 +41,10 @@ Then modify the corresponding paths in [path_utils.py](poc/path_utils.py)
 
 
 ### Anomaly segmentation
-To fine-tunine models with OOD data and perform anomaly segmentation please install the dependencies from `RPL`, `Mask2Anomaly` and `RbA` as detailed in their resepective documentation. Note that `Mask2Anomaly` and `RbA` can share the same environment given they are both built on top of [`Mask2Former`](https://github.com/facebookresearch/Mask2Former).
+To fine-tunine models with OOD data and perform anomaly segmentation please install the dependencies from [RPL](RPL), [Mask2Anomaly](Mask2Anomaly) and [RbA](RbA) as detailed in their resepective documentation. Note that `Mask2Anomaly` and `RbA` can share the same environment given they are both built on top of [Mask2Former](https://github.com/facebookresearch/Mask2Former).
 
 ### Dataset extension
-To train models with extended datasets we use the `relis` repository. Please install their dependencies to run `mmsegmentation` models.
+To train models with extended datasets we use the [relis](relis) repository. Please install their dependencies to run `mmsegmentation` models.
 
 ---
 
