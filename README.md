@@ -3,7 +3,7 @@
 [![made-with-python](https://img.shields.io/badge/made%20with-python-blue.svg)](https://www.python.org/)
 [![made-with-pytorch](https://img.shields.io/badge/made%20with-pytorch-red.svg)](https://pytorch.org)
 
-Codebase to realistically insert objects into images via diffusion inpainting models with applications to anomaly segmentation and dataset extension as presented in *Placing Objects in Context via Inpainting for Out-of-distribution Segmentation*.
+Codebase to realistically insert objects into images via diffusion inpainting models with applications to anomaly segmentation and dataset extension as presented in [*Placing Objects in Context via Inpainting for Out-of-distribution Segmentation*](https://arxiv.org/abs/2402.16392).
 
 <img src="./pipeline.png" alt="plot" width="100%" height="100%">
 
